@@ -1,37 +1,84 @@
 ```
-# Dependencies
-node_modules/
-
-# Build outputs
-dist/
-build/
-target/
-
-# Java/Minecraft specific
+# Java/Minecraft development
 *.class
 *.jar
-META-INF/
+*.war
+*.ear
+*.nar
+target/
+build/
+dist/
 
-# Environment
-.env
-.env.local
-.env.*
+# Gradle
+.gradle/
+!gradle.properties
 
-# Logs
+# Minecraft/Fabric
+.run/
 *.log
+
+# Dependencies
+libs/
+libraries/
 
 # IDE
 .vscode/
 .idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Python (if any Python files exist in project)
-__pycache__/
+# Temp files
+*.tmp
+*.temp
+*.bak
+
+# Environment
+.env
+.env.local
+.env.*
+!fabric.mod.json
+!build.gradle
+!gradle.properties
+!README.md
+
+# Compiled Python (if any Python files exist)
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
-.Python
+
+# Node.js (if any JS files exist)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+*.zst
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Testing
+*.pytest_cache/
+.mypy_cache/
 ```

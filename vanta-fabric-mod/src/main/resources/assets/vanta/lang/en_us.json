@@ -1,0 +1,14 @@
+{
+  "category.vanta": "VANTA Client",
+  "key.vanta.open_gui": "Open Click GUI",
+  "key.vanta.toggle_hud_editor": "Toggle HUD Editor",
+  "vanta.gui.clickgui.title": "VANTA Click GUI",
+  "vanta.category.hud": "HUD",
+  "vanta.category.render": "Render",
+  "vanta.category.world": "World",
+  "vanta.category.player": "Player",
+  "vanta.category.pvp": "PvP",
+  "vanta.category.social": "Social",
+  "vanta.category.cosmetics": "Cosmetics",
+  "vanta.category.performance": "Performance"
+}
