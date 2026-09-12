@@ -1,0 +1,44 @@
+{
+	"fabric": true,
+	"schemaVersion": 1,
+	"id": "vanta",
+	"version": "1.0.0-beta",
+	"name": "VANTA Client",
+	"description": "A feature-rich Minecraft client mod with HUD customization, QoL modules, cosmetics, and performance optimizations",
+	"authors": [
+		"VANTA Team"
+	],
+	"contact": {
+		"homepage": "https://vanta.gg",
+		"sources": "https://github.com/vanta-client/mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vanta/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"gg.vanta.client.mod.VantaClientMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"sodium": "*",
+		"lithium": "*",
+		"ferritecore": "*",
+		"entityculling": "*",
+		"dynamicfps": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/vanta"
+			}
+		}
+	}
+}
